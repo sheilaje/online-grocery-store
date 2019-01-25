@@ -29,6 +29,9 @@ import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.componen
      RouterModule.forRoot([
       {path: "", component: HomeComponent},
       {path: "shopping-cart", component: ShoppingCartComponent},
+      {path: "my/orders", component: MyOrdersComponent},
+      {path: "admin/products", component: AdminProductsComponent},
+      {path: "admin/orders", component: AdminOrdersComponent},
     ])
    
   ],
