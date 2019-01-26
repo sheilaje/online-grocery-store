@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+// import { SwiperModule } from '@angular2-useful-swiper';
 
 import { AppComponent } from './app.component';
 import { BsNavbarComponent } from './bs-navbar/bs-navbar.component';
@@ -31,7 +32,7 @@ import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.componen
       {path: "shopping-cart", component: ShoppingCartComponent},
       {path: "my/orders", component: MyOrdersComponent},
       {path: "admin/products", component: AdminProductsComponent},
-      {path: "admin/orders", component: AdminOrdersComponent},
+      {path: "admin/orders", component: AdminOrdersComponent}
     ])
    
   ],
