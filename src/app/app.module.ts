@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { environment } from '../environments/environment';
+
 // import { SwiperModule } from '@angular2-useful-swiper';
 
 import { AppComponent } from './app.component';
