@@ -25,9 +25,7 @@
                         "styles": [
                             "src/styles.css"
                         ],
-                        "scripts": [
-                            "../node_modules/swiper/dist/js/swiper.js"
-                        ]
+                        "scripts": []
                     },
                     "configurations": {
                         "production": {
