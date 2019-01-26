@@ -14,6 +14,7 @@ import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { MyOrdersComponent } from './my-orders/my-orders.component';
 import { AdminProductsComponent } from './admin/admin-products/admin-products.component';
 import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.componen
     ShoppingCartComponent,
     MyOrdersComponent,
     AdminProductsComponent,
-    AdminOrdersComponent
+    AdminOrdersComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.componen
       {path: "shopping-cart", component: ShoppingCartComponent},
       {path: "my/orders", component: MyOrdersComponent},
       {path: "admin/products", component: AdminProductsComponent},
-      {path: "admin/orders", component: AdminOrdersComponent}
+      {path: "admin/orders", component: AdminOrdersComponent},
+      {path: "login", component: LoginComponent}
     ])
    
   ],
