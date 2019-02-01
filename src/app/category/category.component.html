@@ -1,3 +1,10 @@
-<p>
-  category works!
-</p>
+<h2>Categories</h2>
+<ul>
+    <li *ngFor="let category of categories" (click)="showCategory(category)">{{ category }}</li>
+</ul>
+<!-- <ul>
+  <li *ngFor="let post of posts" >{{ post.category}}</li>
+</ul> -->
+
+<!-- | categoryFilter-->
+<!-- button(click) = "displayProducts(category)" -->
