@@ -18,6 +18,8 @@ Run `ng generate component component-name` to generate a new component. You can 
 - Login COmponent
 - Dropdown Menu
 
+- Add carousel to the splash page
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
