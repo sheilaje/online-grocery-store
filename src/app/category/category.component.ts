@@ -12,12 +12,12 @@ export class CategoryComponent {
 
   categories: string[] = ["vegetable", "fruit"];
   posts: Post[] = [
-    new Post("Onion", 10, "onion.jpg", "vegetable"),
-    new Post("Tomato", 20, "tomato.jpg", "vegetable"),
-    new Post("potato", 15, "potato.jpg", "vegetable"),
-    new Post("pineapple", 30, "pineapple.jpg", "fruit"),
-    new Post("grapes", 6, "grapes.jpg", "fruit"),
-    new Post("apple", 12, "apple.jpg", "fruit"),
+    new Post("Onion", 10, "onion.jpg", "vegetable",1),
+    new Post("Tomato", 20, "Tomato.jpg", "vegetable",2),
+    new Post("potato", 15, "potato.jpg", "vegetable",3),
+    new Post("pineapple", 30, "pineapple.jpg", "fruit",4),
+    new Post("grapes", 6, "grapes.jpg", "fruit",5),
+    new Post("apple", 12, "apple.jpg", "fruit",6),
   ];
 
 
