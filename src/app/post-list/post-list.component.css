@@ -1,0 +1,14 @@
+.product {
+    background-color: #F8F8F8;
+    padding: 15px;
+    margin: 20px;
+}
+
+img {
+    width: 200px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

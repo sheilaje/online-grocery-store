@@ -10,7 +10,7 @@ import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.componen
 import { LoginComponent } from './login/login.component';
 import { CategoryComponent } from './category/category.component';
 import { PostListComponent } from './post-list/post-list.component';
-// import { PostDetailsComponent } from './post-details/post-details.component';
+import { PostdetailsComponent } from './postdetails/postdetails.component';
 
  const appRoutes: Routes = [{path: "", component: HomeComponent},
       {path: "shopping-cart", component: ShoppingCartComponent},
@@ -20,7 +20,7 @@ import { PostListComponent } from './post-list/post-list.component';
       {path: "login", component: LoginComponent},
       {path: "category",component: CategoryComponent},
       {path: "posts/:category", component: PostListComponent},
-    //   {path:"posts/:id", component: PostdetailsComponent}  
+      {path:"posts/:id", component: PostdetailsComponent}  
 ];
 
  export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

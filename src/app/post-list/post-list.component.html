@@ -1,3 +1,11 @@
-<p>
-  post-list works!
-</p>
+<h2>Posts for this category</h2>
+<div class="product-list">
+    <div class="product" *ngFor="let post of posts ">
+        <img src="assets/images/{{post.image}}">
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.cost | currency }}</p>
+        <button (click)="showPostDetails(post)">View</button>
+    </div>
+</div>
+
+<!-- | categoryFilter:category -->
