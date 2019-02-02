@@ -1,0 +1,43 @@
+{
+    "products": [{
+            "title": " Onion",
+            "cost": 10,
+            "image": "https://unsplash.com/photos/CCxWLAx0qmk",
+            "category": "vegetable",
+            "id": "1"
+        }, {
+            "title": " Tomato",
+            "cost": 20,
+            "image": "https://unsplash.com/photos/S-de8PboZmI",
+            "category": "vegetable",
+            "id": "2"
+        }, {
+            "title": " potato",
+            "cost": 15,
+            "image": "https://unsplash.com/photos/B0s3Xndk6tw",
+            "category": "vegetable",
+            "id": "3"
+        },
+        {
+            "title": " pineapple",
+            "cost": 30,
+            "image": "https://unsplash.com/photos/Cr9hZrpC1Oc",
+            "category": "fruit",
+            "id": "4"
+        },
+        {
+            "title": " grapes",
+            "cost": 6,
+            "image": "https://unsplash.com/photos/F_ilCik66Hg",
+            "category": "fruit",
+            "id": "5"
+        },
+        {
+            "title": " apple",
+            "cost": 12,
+            "image": "https://unsplash.com/photos/TQ-q5WAVHj0",
+            "category": "fruit",
+            "id": "6"
+        }
+    ]
+}
