@@ -1,12 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Post } from '../post.model';
+import { ActivatedRoute, Params } from '@angular/router';
+import { Location } from '@angular/common';
 //import { routing } from './app.routing';
 import { Router } from '@angular/router';
+import { PostService } from '../post.service';
 
 @Component({
   selector: 'app-category',
   templateUrl: './category.component.html',
-  styleUrls: ['./category.component.css']
+  styleUrls: ['./category.component.css'],
+  providers: [PostService]
 })
 export class CategoryComponent {
 
@@ -21,7 +25,7 @@ export class CategoryComponent {
   ];
 
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, private postService: PostService) { }
 
   ngOnInit(){
     //console.log(this.posts);
