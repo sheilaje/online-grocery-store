@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
 
+## Description
+
+The project is a try to build a ecommerce site.
+The app is deployed at [here]
+(https://ecomtry1.firebaseapp.com).
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -23,18 +29,23 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Specifications
 
-[X] NavBar Component
-[X] Homepage Component
-[X] Shopping cart component
-[X] Login COmponent
-[X] Dropdown Menu
-[X] Add carousel to the splash page
-[X] Add Database to teh project
-[X] Deploy the project in Firebase
+- [x] NavBar Component
+- [x] Homepage Component
+- [x] Shopping cart component
+- [x] Login Component
+- [x] Dropdown Menu
+- [x] Add carousel to the splash page
+- [x] Add Database to the project
+- [x] Deploy the project in Firebase
 
-## Build
+## Building the project
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- In the terminal, navigate to local directory and run:
+``git clone https://github.com/sheilaje/online-grocery-store``
+- In the terminal, navigate to project directory and install dependencies with:
+``npm install``
+- after the dependencies are installed, run the project using the command:
+``ng serve -o``
 
 ## Running unit tests
 
@@ -47,3 +58,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Legal
+Copyright MIT (c) 2019 Sheila Stephen
