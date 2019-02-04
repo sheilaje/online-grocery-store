@@ -10,15 +10,26 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+## Technologies Used
+
+- HTML
+- Bootstrap
+- ES 6
+- Typescript
+- Node.js
+- Angular
+- Protractor
+- TSLint
+
 ## Specifications
 
-- NavBar Component
+[X] NavBar Component
 - Homepage Component
 - Shopping cart component
 - Login COmponent
 - Dropdown Menu
-
 - Add carousel to the splash page
+- Deploy the project
 
 ## Build
 
