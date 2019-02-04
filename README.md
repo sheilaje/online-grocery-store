@@ -24,12 +24,13 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Specifications
 
 [X] NavBar Component
-- Homepage Component
-- Shopping cart component
-- Login COmponent
-- Dropdown Menu
-- Add carousel to the splash page
-- Deploy the project
+[X] Homepage Component
+[X] Shopping cart component
+[X] Login COmponent
+[X] Dropdown Menu
+[X] Add carousel to the splash page
+[X] Add Database to teh project
+[X] Deploy the project in Firebase
 
 ## Build
 
