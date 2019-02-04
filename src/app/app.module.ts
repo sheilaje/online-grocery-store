@@ -23,6 +23,7 @@ import { LoginComponent } from './login/login.component';
 import { CategoryComponent } from './category/category.component';
 import { PostListComponent } from './post-list/post-list.component';
 import { PostdetailsComponent } from './postdetails/postdetails.component';
+import { CategoryFilter } from './categoryFilter.pipe';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { PostdetailsComponent } from './postdetails/postdetails.component';
     AdminProductsComponent,
     AdminOrdersComponent,
     LoginComponent,
+    CategoryFilter,
     CategoryComponent,
     PostListComponent,
     PostdetailsComponent
